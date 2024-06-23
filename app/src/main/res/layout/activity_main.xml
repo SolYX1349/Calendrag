@@ -10,9 +10,10 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="240dp"
-        android:layout_height="42dp"
+        android:layout_height="52dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="correo@utfv.edu.mx"
+        android:hint="@string/correo_utfv_edu_mx"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textColor="#009688"
@@ -27,9 +28,10 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="240dp"
-        android:layout_height="42dp"
+        android:layout_height="52dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="contraseña"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textColor="#009688"
@@ -45,6 +47,7 @@
         android:id="@+id/imageView"
         android:layout_width="217dp"
         android:layout_height="264dp"
+        android:contentDescription="@string/imagen_de_un_drogon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,18 +57,18 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="240dp"
-        android:layout_height="42dp"
+        android:id="@+id/button_send"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
         android:backgroundTint="#009688"
+        android:onClick="send"
         android:text="@string/Iniciar"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <TextView
         android:id="@+id/textView"

@@ -46,4 +46,8 @@
     <string name="button">Button</string>
     <string name="Iniciar">Iniciar</string>
     <string name="copyright_2024_universidad_tecnol_gica_fidel_vel_zquez_todos_los_derechos_reservados_desarrollado_por_estudiantes_del_rea_de_desarrollo_de_software_multiplataforma">Copyright © 2024 Universidad Tecnológica Fidel Velázquez. Todos los derechos reservados. Desarrollado por estudiantes del Área de Desarrollo de Software Multiplataforma.</string>
+    <string name="correo_utfv_edu_mx">correo@utfv.edu.mx</string>
+    <string name="contrase_a">contraseña</string>
+    <string name="password">contraseña</string>
+    <string name="imagen_de_un_drogon">Imagen de un drogon</string>
 </resources>
