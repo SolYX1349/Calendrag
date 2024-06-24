@@ -50,4 +50,8 @@
     <string name="contrase_a">contraseña</string>
     <string name="password">contraseña</string>
     <string name="imagen_de_un_drogon">Imagen de un drogon</string>
+    <string name="bienvenido_nadministra_tu_contenido_y_ponte_al_dia">Bienvenido!\nadministra tu contenido y ponte al dia!</string>
+    <string name="bienvenido_nponte_al_dia_y_administra_tu_contenido">Bienvenido!\nPonte al dia y administra tu contenido</string>
+    <string name="calendario">Calendario</string>
+    <string name="horario">Horario</string>
 </resources>

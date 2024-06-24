@@ -5,6 +5,113 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C9F3F1"
     tools:context=".activity_home">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#009688"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:srcCompat="@drawable/dragon_min" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="343dp"
+        android:layout_height="112dp"
+        android:background="#65FFFFFF"
+        android:elevation="10dp"
+        android:text="@string/bienvenido_nponte_al_dia_y_administra_tu_contenido"
+        android:textAlignment="inherit"
+        android:textColor="#424242"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:circularflow_angles="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout_calendario"
+        android:layout_width="184dp"
+        android:layout_height="178dp"
+        android:background="#4DF2F2F2"
+        android:elevation="19dp"
+        app:circularflow_angles="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:id="@+id/imageView_calendar_general"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/calendar" />
+
+        <TextView
+            android:id="@+id/textView_calendar_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/calendario"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_horario"
+        android:layout_width="184dp"
+        android:layout_height="178dp"
+        android:background="#4DF2F2F2"
+        android:elevation="19dp"
+        app:circularflow_angles="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435">
+        <TextView
+            android:id="@+id/textView_horario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/horario"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/imageView_horario"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/horario" />
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

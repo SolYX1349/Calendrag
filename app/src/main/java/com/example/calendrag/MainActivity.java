@@ -1,5 +1,6 @@
 package com.example.calendrag;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         if (isValid()) {
             //Resend to the next sheet
             Toast.makeText(this, "Exito al iniciar.", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(this, activity_home.class);
+            startActivity(intent);
         } else {
             //Send an error message
             Toast.makeText(this, "Error al iniciar sesion intenta de nuevo.", Toast.LENGTH_LONG).show();
