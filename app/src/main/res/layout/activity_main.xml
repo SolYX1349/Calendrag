@@ -20,10 +20,10 @@
         android:textColorHint="#6F6F6F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552" />
+        app:layout_constraintVertical_bias="0.508" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -38,10 +38,10 @@
         android:textColorHint="#6F6F6F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.642" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214"
+        app:layout_constraintVertical_bias="0.173"
         app:srcCompat="@drawable/oig3"
         tools:ignore="MissingConstraints" />
 
@@ -66,9 +66,24 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/button_invitado"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#031E3B"
+        android:text="Inicia como invitado"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
 
     <TextView
         android:id="@+id/textView"
