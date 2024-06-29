@@ -13,8 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String DEFAULT_EMAIL = "12345678@utfv.edu.mx";
-    private static final String DEFAULT_PASSWORD = "1234567890";
+    private static final String DEFAULT_EMAIL = "123";
+    private static final String DEFAULT_PASSWORD = "123";
 
     private EditText edtEmail;
     private EditText edtPassword;
@@ -34,7 +34,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void send(View view) {
+    //Button functions
+    public void userMode(View view) {
+        send();
+    }
+
+    public void guestMode(View view) {
+        Intent intent = new Intent(this, activity_home_guest.class);
+        startActivity(intent);
+    }
+
+    //Functionalities
+    private void send() {
         getInformation();
 
         if (isValid()) {
@@ -42,11 +53,12 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Exito al iniciar.", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(this, activity_home.class);
             startActivity(intent);
+            clean();
         } else {
             //Send an error message
             Toast.makeText(this, "Error al iniciar sesion intenta de nuevo.", Toast.LENGTH_LONG).show();
+            clean();
         }
-        clean();
     }
 
     private void assignInformation() {
