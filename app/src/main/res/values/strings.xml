@@ -56,4 +56,6 @@
     <string name="horario">Horario</string>
     <string name="calendario_escolar">Calendario Escolar</string>
     <string name="todo">TODO</string>
+    <string name="profile_mage">profile mage</string>
+    <string name="button_calendar_image">button calendar image</string>
 </resources>
