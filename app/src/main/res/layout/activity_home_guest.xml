@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".activity_home_guest">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#031E3B"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:srcCompat="@drawable/dragon_min" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_calendario"
+        android:layout_width="184dp"
+        android:layout_height="178dp"
+        android:background="#4DF2F2F2"
+        android:elevation="19dp"
+        app:circularflow_angles="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:id="@+id/imageView_calendar_general"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/calendar" />
+
+        <TextView
+            android:id="@+id/textView_calendar_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/calendario"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
