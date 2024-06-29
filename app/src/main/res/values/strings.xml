@@ -54,4 +54,6 @@
     <string name="bienvenido_nponte_al_dia_y_administra_tu_contenido">Bienvenido!\nPonte al dia y administra tu contenido</string>
     <string name="calendario">Calendario</string>
     <string name="horario">Horario</string>
+    <string name="calendario_escolar">Calendario Escolar</string>
+    <string name="todo">TODO</string>
 </resources>
